@@ -67,7 +67,7 @@ export default function InvoicePreview({ settings, invoice, items, customer }: P
             <img
               src={settings.logo_url}
               alt={settings.company_name}
-              className="max-h-20 max-w-52 object-contain object-left"
+              className="max-h-32 max-w-64 object-contain object-left"
             />
           ) : (
             <div className="text-2xl font-bold tracking-tight text-slate-900">

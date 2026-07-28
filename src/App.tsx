@@ -108,7 +108,7 @@ function Taskbar() {
         title="Show desktop"
       >
         {settings?.logo_url ? (
-          <img src={settings.logo_url} alt="" className="h-4 w-4 object-contain" />
+          <img src={settings.logo_url} alt="" className="h-6 w-6 object-contain" />
         ) : (
           <HazITMark size={16} />
         )}

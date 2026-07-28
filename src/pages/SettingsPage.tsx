@@ -94,7 +94,7 @@ export default function SettingsPage() {
 
       <Section title="Branding" desc="Your logo appears on invoices and other documents.">
         <div className="flex items-center gap-4 sm:col-span-2">
-          <div className="bevel-in flex h-24 w-44 items-center justify-center p-2">
+          <div className="bevel-in flex h-36 w-56 items-center justify-center p-3">
             {form.logo_url ? (
               <img src={form.logo_url} alt="Logo" className="max-h-full max-w-full object-contain" />
             ) : (

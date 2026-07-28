@@ -33,9 +33,9 @@ function Header() {
         scrolled ? 'border-b border-[var(--line)] bg-[var(--stone)]/90 backdrop-blur' : 'bg-transparent'
       }`}
     >
-      <Container className="flex h-20 items-center justify-between gap-6">
+      <Container className="flex h-28 items-center justify-between gap-6">
         <Link to="/" className="flex items-center gap-3" aria-label="HazIT home">
-          <img src={LOGO} alt="" className="h-10 w-auto object-contain" />
+          <img src={LOGO} alt="" className="h-20 w-auto object-contain sm:h-24" />
           <span className="sr-only">HazIT</span>
         </Link>
 
@@ -69,7 +69,7 @@ function Header() {
 
         <button
           onClick={() => setOpen((v) => !v)}
-          className="flex h-11 w-11 items-center justify-center rounded-full border border-[var(--line)] bg-white/70 lg:hidden"
+          className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full border border-[var(--line)] bg-white/70 lg:hidden"
           aria-label={open ? 'Close menu' : 'Open menu'}
           aria-expanded={open}
         >
@@ -117,7 +117,7 @@ function Footer() {
       <Container className="py-14">
         <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
           <div className="lg:col-span-2">
-            <img src={LOGO} alt="HazIT" className="h-11 w-auto object-contain" />
+            <img src={LOGO} alt="HazIT" className="h-28 w-auto object-contain" />
             <p className="mt-4 max-w-sm text-[15px] leading-relaxed text-[var(--ink-soft)]">
               Friendly, local tech support in Bath. Based in Bear Flat, covering Bath and the
               surrounding villages — evenings and weekends, when you're actually home.

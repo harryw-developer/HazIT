@@ -29,7 +29,7 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-slate-100 p-4">
       <div className="w-full max-w-md">
         <div className="mb-6 flex flex-col items-center">
-          <img src={LOGO_URL} alt="HazIT" className="h-20 w-auto object-contain" />
+          <img src={LOGO_URL} alt="HazIT" className="h-36 w-auto object-contain sm:h-44" />
           <p className="mt-3 text-center text-lg text-slate-600">Welcome — please sign in</p>
         </div>
 

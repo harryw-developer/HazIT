@@ -33,9 +33,13 @@ function TopBar({ easy }: { easy: boolean }) {
   const navigate = useNavigate()
   return (
     <header className="sticky top-0 z-20 border-b border-slate-200 bg-white">
-      <div className={`mx-auto flex items-center justify-between gap-4 px-4 ${easy ? 'max-w-4xl py-3' : 'max-w-6xl py-2.5'}`}>
+      <div className={`mx-auto flex items-center justify-between gap-4 px-4 ${easy ? 'max-w-4xl py-4' : 'max-w-6xl py-3'}`}>
         <button onClick={() => navigate('/')} className="flex items-center gap-3" title="Home">
-          <img src={settings?.logo_url || LOGO_URL} alt="Home" className={easy ? 'h-11 w-auto object-contain' : 'h-9 w-auto object-contain'} />
+          <img
+            src={settings?.logo_url || LOGO_URL}
+            alt="Home"
+            className={easy ? 'h-20 w-auto object-contain' : 'h-16 w-auto object-contain'}
+          />
           <span className="sr-only">Home</span>
         </button>
         <div className="flex items-center gap-3">
