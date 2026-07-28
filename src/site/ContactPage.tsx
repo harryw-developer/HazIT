@@ -111,8 +111,7 @@ export default function ContactPage() {
               <div className="mt-8 rounded-2xl border border-[var(--line)] bg-[var(--stone-deep)] p-6">
                 <h3 className="site-display text-lg">When I'm available</h3>
                 <p className="mt-2 text-[15px] leading-relaxed text-[var(--ink-soft)]">
-                  Evenings and weekends, across Bath and the surrounding villages. Leave a message any
-                  time and I'll come back to you.
+                  Evenings and weekends. Leave a message any time and I'll come back to you.
                 </p>
               </div>
             </div>

@@ -34,7 +34,6 @@ import PortalApp from './portal/PortalApp'
 import SiteLayout from './site/SiteLayout'
 import HomePage from './site/HomePage'
 import ServicesPage from './site/ServicesPage'
-import AreasPage from './site/AreasPage'
 import AboutPage from './site/AboutPage'
 import ContactPage from './site/ContactPage'
 
@@ -161,7 +160,6 @@ function PublicSite() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />} />
-        <Route path="/areas" element={<AreasPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/contact" element={<ContactPage />} />
       </Routes>
@@ -170,7 +168,7 @@ function PublicSite() {
 }
 
 // Website pages other than "/" — these stay public even when signed in.
-const SITE_PATHS = ['/services', '/areas', '/about', '/contact']
+const SITE_PATHS = ['/services', '/about', '/contact']
 
 function RootRouter() {
   const { loading, session, profile } = useAuth()

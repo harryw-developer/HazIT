@@ -6,7 +6,6 @@ import {
   Eyebrow,
   H2,
   IconArrow,
-  IconCheck,
   IconMail,
   IconPhone,
   Lede,
@@ -52,8 +51,7 @@ export default function HomePage() {
             </h1>
             <Lede className="mt-7 max-w-2xl">
               Friendly help with WiFi, computers and everyday technology — at home, in plain English.
-              Covering Bath and the surrounding villages, evenings and weekends, when you're actually
-              home.
+              Based in Bear Flat, Bath, UK, working evenings and weekends, when you're actually home.
             </Lede>
             <div className="mt-9 flex flex-wrap items-center gap-3">
               <Button href={`tel:${PHONE}`}>
@@ -117,48 +115,6 @@ export default function HomePage() {
                 </div>
               ))}
             </div>
-          </div>
-        </Container>
-      </Section>
-
-      {/* WiFi feature — the signature service */}
-      <Section tone="deep" className="border-y border-[var(--line)]">
-        <Container>
-          <div className="grid items-center gap-14 lg:grid-cols-2">
-            <div>
-              <Eyebrow>Bath's speciality</Eyebrow>
-              <H2>Georgian stone is lovely. WiFi disagrees.</H2>
-              <div className="mt-6 space-y-4 text-[17px] leading-relaxed text-[var(--ink-soft)]">
-                <p>
-                  Thick walls, converted flats and a router stuck in the wrong corner make dead spots
-                  that no amount of rebooting will fix.
-                </p>
-                <p>
-                  I survey the house to find exactly where the signal gives up, then fix it properly —
-                  mesh, extra access points, or powerline where you can't run cable and can't drill.
-                </p>
-              </div>
-              <div className="mt-8">
-                <Button to="/services" variant="outline">
-                  How it works <IconArrow />
-                </Button>
-              </div>
-            </div>
-
-            <ul className="space-y-4 rounded-2xl border border-[var(--line)] bg-white p-8">
-              {[
-                'Full survey to find the dead spots',
-                'Mesh systems and additional access points',
-                'Powerline where cable isn’t an option',
-                'Router setup and secure configuration',
-                'Parental controls and content filtering',
-              ].map((item) => (
-                <li key={item} className="flex items-start gap-3 text-[16px]">
-                  <IconCheck />
-                  <span>{item}</span>
-                </li>
-              ))}
-            </ul>
           </div>
         </Container>
       </Section>

@@ -9,7 +9,6 @@ const LOGO =
 const NAV = [
   { to: '/', label: 'Home' },
   { to: '/services', label: 'Services' },
-  { to: '/areas', label: 'Areas covered' },
   { to: '/about', label: 'About' },
   { to: '/contact', label: 'Contact' },
 ]
@@ -119,8 +118,8 @@ function Footer() {
           <div className="lg:col-span-2">
             <img src={LOGO} alt="HazIT" className="h-28 w-auto object-contain" />
             <p className="mt-4 max-w-sm text-[15px] leading-relaxed text-[var(--ink-soft)]">
-              Friendly, local tech support in Bath. Based in Bear Flat, covering Bath and the
-              surrounding villages — evenings and weekends, when you're actually home.
+              Friendly, local tech support. Based in Bear Flat, Bath, UK — evenings and weekends,
+              when you're actually home.
             </p>
           </div>
 
@@ -163,7 +162,7 @@ function Footer() {
 
         <div className="mt-12 flex flex-col gap-2 border-t border-[var(--line)] pt-6 text-[13px] text-[var(--ink-soft)] sm:flex-row sm:items-center sm:justify-between">
           <p>© {new Date().getFullYear()} HazIT · Bath</p>
-          <p>Evenings and weekends · Bath and surrounding villages</p>
+          <p>Based in Bear Flat, Bath, UK · Evenings and weekends</p>
         </div>
       </Container>
     </footer>

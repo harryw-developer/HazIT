@@ -58,19 +58,28 @@ export default function AboutPage() {
                 say they will, sorts the problem, and explains it without making them feel foolish.
               </p>
               <p>
-                That's the whole idea behind HazIT. I'm based in Bear Flat and cover Bath and the
-                villages around it, working evenings and weekends so appointments land when you're
-                actually home — not in a vague weekday window you have to book time off for.
+                That's the whole idea behind HazIT. I'm based in Bear Flat, Bath, working evenings and
+                weekends so appointments land when you're actually home — not in a vague weekday
+                window you have to book time off for.
               </p>
               <p>
-                A lot of what I do is WiFi. Bath's houses are wonderful and completely hostile to a
-                wireless signal: thick Georgian stone, converted flats, and routers installed wherever
-                the phone socket happened to be. It's a solvable problem once someone measures it
-                properly rather than guessing.
+                I'm hard working, and I genuinely enjoy this work — solving the problem and seeing
+                someone get on with their day is the best part of it. I'm friendly, I'll explain
+                things in plain English, and I won't make you feel silly for asking.
               </p>
               <p>
-                The rest is everyday technology — new laptops, stubborn printers, phones, smart TVs,
-                and showing people how to get the most out of kit they've already paid for.
+                Nothing is hidden. I'll tell you what I think the problem is and what it'll take to
+                fix before I start, and I'll keep explaining as I go, so you always know what's
+                happening and why. No surprises at the end.
+              </p>
+              <p>
+                Honestly, I just have a real passion for helping people out — and I'm proud to be
+                building my own business doing it.
+              </p>
+              <p>
+                The work itself covers WiFi and home networking, computers, and everyday technology —
+                new laptops, stubborn printers, phones, smart TVs — plus showing people how to get the
+                most out of kit they've already paid for.
               </p>
             </div>
 
@@ -80,11 +89,7 @@ export default function AboutPage() {
               <dl className="space-y-4 text-[15px]">
                 <div>
                   <dt className="font-semibold">Based in</dt>
-                  <dd className="text-[var(--ink-soft)]">Bear Flat, Bath</dd>
-                </div>
-                <div>
-                  <dt className="font-semibold">Covering</dt>
-                  <dd className="text-[var(--ink-soft)]">Bath and the surrounding villages</dd>
+                  <dd className="text-[var(--ink-soft)]">Bear Flat, Bath, UK</dd>
                 </div>
                 <div>
                   <dt className="font-semibold">Hours</dt>

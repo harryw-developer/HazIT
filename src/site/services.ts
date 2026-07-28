@@ -16,8 +16,8 @@ export const SERVICES: Service[] = [
     title: 'WiFi and home networking',
     short: 'Dead spots found and fixed — properly, not by rebooting.',
     body: [
-      "Bath's houses are beautiful and terrible for WiFi. Thick Georgian stone, converted flats, and routers stuck in the wrong corner mean dead spots that no amount of rebooting will fix.",
-      'I start with a full survey to find them, then put a proper solution in place — mesh systems, additional access points, or powerline where you can’t run cable and can’t drill.',
+      'If the signal drops out in certain rooms, I survey the house to find exactly where it gives up.',
+      'Then I put a proper fix in place — a mesh system, additional access points, or powerline where you can’t run cable and can’t drill.',
     ],
     points: [
       'Full WiFi survey to find the dead spots',
