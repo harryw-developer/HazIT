@@ -28,8 +28,8 @@ function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-40 transition-colors duration-300 ${
-        scrolled ? 'border-b border-[var(--line)] bg-[var(--stone)]/90 backdrop-blur' : 'bg-transparent'
+      className={`sticky top-0 z-40 border-b bg-[var(--stone)]/92 backdrop-blur transition-colors duration-300 ${
+        scrolled ? 'border-[var(--line)] shadow-[0_1px_12px_rgba(23,26,31,0.06)]' : 'border-transparent'
       }`}
     >
       <Container className="flex h-28 items-center justify-between gap-6">
