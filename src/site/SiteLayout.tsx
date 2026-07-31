@@ -32,9 +32,19 @@ function Header() {
         scrolled ? 'border-[var(--line)] shadow-[0_1px_12px_rgba(23,26,31,0.06)]' : 'border-transparent'
       }`}
     >
-      <Container className="flex h-28 items-center justify-between gap-6">
+      <Container
+        className={`flex items-center justify-between gap-6 transition-[height] duration-300 ${
+          scrolled ? 'h-24' : 'h-36 sm:h-40'
+        }`}
+      >
         <Link to="/" className="flex items-center gap-3" aria-label="HazIT home">
-          <img src={LOGO} alt="" className="h-20 w-auto object-contain sm:h-24" />
+          <img
+            src={LOGO}
+            alt=""
+            className={`w-auto object-contain transition-[height] duration-300 ${
+              scrolled ? 'h-16 sm:h-20' : 'h-28 sm:h-32'
+            }`}
+          />
           <span className="sr-only">HazIT</span>
         </Link>
 
