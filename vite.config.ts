@@ -2,9 +2,9 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
-// Served from https://<user>.github.io/HazIT/ in production,
-// and from the root during local development.
-export default defineConfig(({ command }) => ({
-  base: command === 'build' ? '/HazIT/' : '/',
+// Served from the root of the custom domain (hazit.co.uk).
+// public/CNAME tells GitHub Pages which domain to serve on.
+export default defineConfig({
+  base: '/',
   plugins: [react(), tailwindcss()],
-}))
+})
